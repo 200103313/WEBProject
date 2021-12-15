@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(BCK.jpg);
+}
+
+.header{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    background-color: #ffd700;
+    padding: 50 100px;
+    padding-top: 15px;
+    font-size: 25px;
+    color: black;
+    border-bottom: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.people{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.main{
+    text-align: center;
+}
+
+#sergeybarsukoff, #tatyanazhukova, #ekaterinavasilieva, #victoriakokoreva{
+    cursor: pointer;
+}
+
+#img{
+    position: relative;
+}
+.text{
+    opacity: 0;
+}
